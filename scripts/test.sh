@@ -2,4 +2,4 @@
 set -e
 
 source .venv/bin/activate
-pytest
+PYTHONPATH=. pytest
